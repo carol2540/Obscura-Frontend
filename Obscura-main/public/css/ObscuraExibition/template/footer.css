@@ -1,0 +1,29 @@
+footer{
+    background-color: #06242F;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+}
+
+footer{
+    font-family: goudy;
+    color: #CCE793;
+}
+
+footer .footer-center{
+    padding:0px 0px !important;
+}
+
+footer .footer-center p{
+    text-align: justify !important;
+}
+
+footer h4{
+    margin-bottom: 30px;
+}
+
+@media (max-width:988px){
+    footer h4{
+        font-size: 25px;
+    }
+}

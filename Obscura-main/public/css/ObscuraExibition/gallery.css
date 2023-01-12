@@ -1,0 +1,348 @@
+html{
+    overflow-x: hidden;
+}
+
+.font-gradient{
+    background: -webkit-linear-gradient(#CCE793 45%, #103F51);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font-yellow{
+    color:#CCE793;
+    background: transparent;
+}
+
+.main{
+    background-image: linear-gradient(#0B2A34,#065D7A,#0E526C);
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.section-1{
+    height: 40vh;
+    margin-top:140px;
+}
+.font-goudy{
+    font-family: goudy  !important;
+}
+
+.section p{
+    text-align:center;
+}
+
+.section-1 p{
+    font-size: 6em;
+}
+
+.section img:first-child{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.section img:nth-child(2){
+    position: absolute;
+    bottom:-2px;
+    left:0;
+}
+
+.section img:nth-child(3){
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.section img:nth-child(4){
+    position: absolute;
+    bottom:-2px;
+    right:0;
+}
+
+.section-bawah img:first-child{
+    position: absolute;
+    top:-2px;
+    left:0;
+}
+
+.section-bawah img:nth-child(3){
+    position: absolute;
+    top:-2px;
+    right:0;
+}
+
+.section-2 {
+    height: 100%;
+    padding-bottom: 75px;
+}
+
+.section-2 .topic{
+    margin-top:100px !important;
+}
+
+.section-2 input{
+    border-radius: 50px;
+    background-color: #8DC1D3;
+    padding:10px 30px;
+}
+
+.section-2 .topic p:nth-child(2){
+    font-size: 1.3em;
+}
+
+.section-2 button{
+    z-index: 99;
+    font-size: 1.2em;
+    padding:15px 40px;
+    background-color: transparent !important;
+    border:none;
+    border-right:1px solid #CCE793;
+    text-align: center;
+}
+
+.section-2 .last{
+    border: none;
+}
+
+.frame-size{
+    width:300px;
+}
+
+.box{
+    padding:10px;
+}   
+
+.isi-box{
+    height: 250px;
+    border-radius: 10px;
+}
+
+.isi-box img{
+    border-radius: 10px;
+    position: inherit !important;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.pembatas{
+    position: absolute;
+    bottom:-25px;
+    left: center;
+}
+
+
+
+.modal{
+    overflow-y: visible!important;
+    font-family: goudy;
+}
+
+.modal .photo-title{
+    font-size: 64px;
+    background: -webkit-linear-gradient(#B6D794, #257C9E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modal .photo-name{
+    font-size: 32px;
+    background: -webkit-linear-gradient(#B6D794, #257C9E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modal-content{
+    min-width: 80vw;
+    background: linear-gradient(0deg, #0A2F3E, #0A2F3E)!important;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.51)!important;
+    border-radius: 0!important;
+}
+
+.modal-dialog{
+    max-width: 90vw!important;
+}
+
+.modal-img-container{
+    max-height: 600px;
+}
+
+.modal-img-container img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.modal-content .img-left {
+    position: absolute!important;
+    top:0;
+    left:0;
+    width: 200px;
+    z-index: 1;
+}
+.like-button img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.modal-content .img-botleft {
+    position: absolute!important;
+    bottom:-2px;
+    left:0;
+    width: 200px;
+    z-index: 1;
+}
+
+.modal-content .img-right {
+    position: absolute!important;
+    top:0;
+    right:0;
+    width: 200px;
+    z-index: 1;
+}
+
+.modal-content .img-botright {
+    position: absolute!important;
+    bottom:-2px;
+    right:0;
+    width: 200px;
+    z-index: 1;
+}
+
+.vote-btn{
+    width: 200px;
+    border-radius: 35px;
+    border: 2px solid #BBDF95;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-shadow: 4px 3px 3px rgba(0, 29, 40, 0.7);
+    background-color: #1F5263;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
+
+.voted{
+    background-color:#B6D794 !important;
+    color:#0A2F3E;
+    text-shadow: none;
+}
+
+.voted:hover{
+    background-color:#0A2F3E !important;
+    color:#BBDF95 !important;
+    text-shadow: none;
+}
+
+.vote-btn:hover{
+    cursor: pointer;
+    background-color: #B6D794;
+    color: #103F51;
+    transition: 0.2s;
+    text-shadow: none;
+
+}
+
+.modal-text-container{
+    font-family: Goudy Old Style;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 25px;
+text-align: justify;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.like-button{
+    color: white;
+}
+
+.modal-img-container, .title-content, .modal-text-containerm, .button-container{
+    z-index: 2;
+}
+
+.btn-close{
+    margin-top: 30px;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+}
+
+.image-position-container .box{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    margin: 10px;
+    border-radius: 25px;
+    transition: 0.2s;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.image-position-container .box:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.image-position-container .box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+@media (max-width:1000px){
+    .komite .image-bawah{
+        padding: 0px 100px;
+    }
+}
+
+@media (max-width:900px){
+    .frame-size{
+        width:100px;
+    }
+
+    .section .topic p:first-child{
+        font-size:3em;
+    }
+
+    .section-2 .topic p:first-child{
+        font-size: 2em;
+    }
+
+    .section-1 .topic p:nth-child(2){
+        font-size: 1.5em;
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width:770px){
+    .section-2 button{
+        border:none;
+        border-bottom:1px solid #CCE793;
+    }
+
+    .section-2 .last{
+        border-bottom: 1px solid #CCE793;
+    }
+}
+
+@media (max-width:500px){
+    .modal .photo-title{
+        font-size: 40px;
+    }
+    
+}

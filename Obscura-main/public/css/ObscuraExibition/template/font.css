@@ -1,0 +1,20 @@
+@font-face {
+    font-family: tecmono;
+    src: url('../../../fonts/ShareTechMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: Allerta;
+    src: url('../../../fonts/AllertaStencil-Regular.ttf');
+}
+
+@font-face{
+    font-family: goudy;
+    src: url('../../../fonts/SortsMillGoudy-Regular.ttf');
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url('../../../fonts/Roboto/Roboto-Regular.ttf');
+}
+

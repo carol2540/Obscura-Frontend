@@ -1,0 +1,179 @@
+html{
+    overflow-x: hidden;
+}
+.section-1{
+    position: relative;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:  url('../../images/about/bg-1.jpg');
+}
+
+.section-1 .title{
+    width: 50%;
+}
+
+.section-1 p{
+    font-family: tecmono;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.section-1 .arrow{
+    width: 50px;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-2{
+    position: relative;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:  url('../../images/about/bg-2.jpg');
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to right, rgba(57,121,105,1) 0%, rgba(224,96,90,1) 50%, rgba(57,121,105,1) 100%);
+}
+
+.section-2 .visimisi{
+    /* height: 100vh; */
+    /* width: 40%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:  url('../../images/about/visimisi.png');
+}
+
+
+.border-gradient {
+    border-right: 5px solid;
+    border-left: 5px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to bottom, rgba(224,96,90,1), rgba(57,121,105,1));
+}
+
+.text-container {
+    transition: 0.2s;
+    background: transparent;
+    width: 100%;
+    height: 50%;
+}
+
+.text-container:hover {
+    cursor: pointer;
+}
+.text-container.active {
+    transition: 0.2s;
+    background: rgb(224,96,90);
+    background: linear-gradient(180deg, rgba(224,96,90,1) 0%, rgba(57,121,105,1) 100%);
+}
+
+.visi, .mission {
+    transition: 0.2s;
+    font-family: Allerta;
+    font-size: 50px;
+    color: #292627;
+    text-shadow: 1px 1px 0 white, 1px -1px 0 white, -1px 1px 0 white, -1px -1px 0 white, 2px 0px 0 white, 0px 2px 0 white, -1px 0px 0 white, 0px -1px 0 white;
+    transform: rotate(270deg);
+    height: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 10px;
+}
+
+.visi.active, .mission.active {
+    color: white;
+    text-shadow: none;
+    transition: 0.2s;
+
+}
+
+
+
+.content-list ul{
+    list-style-image: url('../../images/about/list.png');
+    font-family: tecmono;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+.content-list li{
+    padding-left: 10px;
+}
+
+.section-3{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:  url('../../images/about/bg-3.jpg');
+}
+
+.carousel{
+    transform: rotate(90deg) translate(0%, 0%);
+}
+
+.carousel-control-prev-icon{
+    width: 1rem;
+    height: 1rem;
+    background-image: url('../../images/about/prev-icon.png')!important;
+}     
+
+.carousel-control-next-icon{
+    width: 1rem;
+    height: 1rem;
+    background-image: url('../../images/about/next-icon.png')!important;
+}   
+/* .carousel-control-next{
+    left: 70%!important;
+}
+
+.carousel-control-prev{
+    left: 12%!important;
+} */
+
+@media (max-width:992px){
+    
+    .visi, .mission {
+        width: 50%;
+        height: 100%;
+        transform: rotate(0deg);
+        letter-spacing: 5px;
+        font-size: 28px;
+    }
+
+    .border-gradient {
+        border-top: 5px solid;
+        border-bottom: 5px solid;
+        border-image-slice: 1;
+        border-width: 5px;
+        border-image-source: linear-gradient(to right, rgba(224,96,90,1), rgba(57,121,105,1));
+    }
+
+    .text-container {
+        width: 50%;
+        border-image-slice: 1;
+        border-width: 5px;
+       height: 100%;
+    }
+    .text-container.active {
+        background: rgb(224,96,90);
+        background: linear-gradient(90deg, rgba(224,96,90,1) 0%, rgba(57,121,105,1) 100%);
+    }
+
+    .carousel{
+        transform: rotate(0deg) translate(0%, 0%);
+    }
+}

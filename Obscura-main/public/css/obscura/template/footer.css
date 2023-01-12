@@ -1,0 +1,17 @@
+footer{
+    background-color: #292727;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+}
+
+footer{
+    font-family: tecmono;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
